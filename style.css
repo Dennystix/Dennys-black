@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@1;100;200;400;700&display=swap");
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto; }
+
+.header {
+  color: #ffffff;
+  position: fixed;
+  z-index: 9; }
+  .header_logo-area {
+    box-shadow: 3px 4px 25.9px #ffffff;
+    border-radius: 0 0 15px 0;
+    padding: 1rem; }
+    .header_logo-area--block {
+      display: flex;
+      align-items: center;
+      padding: 1rem 0; }
+      .header_logo-area--block-icon img {
+        width: 64px;
+        margin-right: 1rem; }
+
+.main {
+  height: 800px;
+  background: url(/media-files/crazy.jpg);
+  position: relative; }
+  .main::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0; }
+  .main_content {
+    position: absolute;
+    max-width: 45%;
+    top: 50%;
+    z-index: 1;
+    transform: translate(0, -50%); }
+
+.canvas {
+  background: #fff;
+  position: relative; }
+  .canvas input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    margin: 10px;
+    width: calc(100% - 20px);
+    z-index: 100; }
+  .canvas #canvas {
+    background: #000; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px; }
+
+h1 {
+  font-size: 8rem;
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  color: #ffffff;
+  font-weight: 300;
+  letter-spacing: 3px;
+  padding: 10px; }
+  h1:hover {
+    background-color: #ebd1ad78;
+    border-radius: 15px; }
+
+p {
+  font-size: 2rem;
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  color: #ffffff;
+  font-weight: 200;
+  letter-spacing: 3px;
+  line-height: 3rem;
+  padding: 10px; }
+  p:hover {
+    background-color: #00a2ed73;
+    border-radius: 15px; }
