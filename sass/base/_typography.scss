@@ -1,0 +1,30 @@
+//
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@1;100;200;400;700&display=swap');
+
+h1 {
+    font-size:8rem;
+    font-family:$main-font;
+    color:$white;
+    font-weight:300;
+    letter-spacing: 3px;
+    padding:10px;
+
+    &:hover {
+        background-color:$second-color;
+        border-radius: 15px;
+    }
+}
+p {
+    font-size:2rem;
+    font-family:$main-font;
+    color:$white;
+    font-weight:200;
+    letter-spacing: 3px;
+    line-height: 3rem;
+    padding:10px;
+
+    &:hover {
+        background-color:$third-color;
+        border-radius: 15px;
+    }
+}

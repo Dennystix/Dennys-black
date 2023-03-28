@@ -1,0 +1,21 @@
+.canvas {
+    background:#fff;
+    position:relative;
+
+    input {
+        position:absolute;
+        left:0;
+        top:0;
+        padding:10px;
+
+        margin:10px;
+        width: calc(100% - 20px);
+        z-index: 100;
+    }
+
+
+    #canvas {
+        background:#000;
+        
+    }
+}

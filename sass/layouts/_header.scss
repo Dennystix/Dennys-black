@@ -1,0 +1,32 @@
+.header {
+    color:$white;
+    position: fixed;
+    z-index: 9;
+
+    //logo area
+    &_logo-area{
+        box-shadow: 3px 4px 25.9px #ffffff;
+        border-radius: 0 0 15px 0;
+        padding:1rem;
+
+        &--block {
+            display:flex;
+            align-items: center;
+            padding:1rem 0;
+
+            &-icon {
+                img {
+                    width:64px;
+                    margin-right: 1rem;
+                }
+            }
+
+            &-contact {
+
+            }
+        }
+    }
+    
+    
+    
+}
